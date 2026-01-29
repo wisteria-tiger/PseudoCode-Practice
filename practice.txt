@@ -1,0 +1,25 @@
+--PSEUDOCODE #1--
+Initialize Variable userInput
+
+Prompt user for userInput
+Read in userInput
+IF userInput is not a string or is already in all caps
+  Clear the errors and prompt the user again
+ELSE
+  Convert the string into all caps using an toUpperCase function
+  Print string userInput
+
+--PSEUDOCODE #2--
+Initialize Variables num1 and num2
+
+Prompt user for num1
+read in num1
+if num1 is NOT an int
+  clear errors and prompt user again
+
+Prompt user for num2
+  clear errors and prompt user again
+read in num2
+
+Add num1 and num2 together
+Print 
