@@ -21,5 +21,49 @@ Prompt user for num2
   clear errors and prompt user again
 read in num2
 
-Add num1 and num2 together
-Print 
+Print the sum of num1 and num2
+
+--PSEUDOCODE #3--
+Initialize Variables total, userInput, and numInput
+
+BEGIN while loop 
+WHILE userInput does not equal n or userInput does not equal N
+
+Prompt user for userInput
+read in userInput
+IF userInput equals y or userInput equals Y
+  prompt user for numInput
+  add numInput into total
+ELSE
+  Break the loop
+ENDWHILE
+
+--PSEUDOCODE #4--
+Initialize Variable userInput and maxNumber
+
+BEGIN while loop 
+WHILE userInput does not equal n or userInput does not equal N
+
+Prompt user for userInput
+read in userInput
+IF userInput equals y or userInput equals Y
+  prompt user for maxNumber
+  compute a random number between 0 and maxNumber
+ELSE
+  Break the loop
+ENDWHILE
+
+--PSEUDOCODE #5--
+Initialize Variables randNum, rightCount, and leftCount
+
+start for loop that runs 10 times
+  if randNum divided by 2 equals 0
+    print randNum " RIGHT"
+    add 1 to rightCount
+  else
+    print randNum " LEFT"
+    add 1 to leftCount
+end for loop
+
+print "right: " rightCount
+print "left: " leftCount
