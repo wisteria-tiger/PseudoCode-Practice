@@ -6,8 +6,8 @@ Read in userInput
 IF userInput is not a string or is already in all caps
   Clear the errors and prompt the user again
 ELSE
-  Convert the string into all caps using an toUpperCase function
-  Print string userInput
+  Convert the string into all caps 
+  Print userInput
 
 --PSEUDOCODE #2--
 Initialize Variables num1 and num2
@@ -18,8 +18,9 @@ if num1 is NOT an int
   clear errors and prompt user again
 
 Prompt user for num2
-  clear errors and prompt user again
 read in num2
+if num2 is NOT an int
+  clear errors and prompt user again
 
 Print the sum of num1 and num2
 
