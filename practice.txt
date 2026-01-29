@@ -33,7 +33,12 @@ Prompt user for userInput
 read in userInput
 IF userInput equals y or userInput equals Y
   prompt user for numInput
-  add numInput into total
+  if numInput is not an int
+    clear errors and prompt user again
+  else
+    add numInput into total
+ELSE IF userInput is not a string or is not y or Y or n or N
+  clear errors and prompt user again
 ELSE
   Break the loop
 ENDWHILE
@@ -48,7 +53,12 @@ Prompt user for userInput
 read in userInput
 IF userInput equals y or userInput equals Y
   prompt user for maxNumber
-  compute a random number between 0 and maxNumber
+  if MaxNumber is not an int
+    clear errors and prompt user again
+  else
+    print random number between 0 and maxNumber
+ELSE IF userInput is not a string or is not y or Y or n or N
+  clear errors and prompt user again
 ELSE
   Break the loop
 ENDWHILE
